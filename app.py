@@ -5,7 +5,7 @@ from flask import Flask, render_template_string, request
 app = Flask(__name__)
 
 # Load the trained model (Ensure your .pkl file is renamed to model.pkl or update the filename here)
-model = pickle.load(open("liner2.pkl", "rb"))
+model = pickle.load(open("linear2.pkl", "rb"))
 
 # HTML Template with attractive styling embedded directly
 HTML_TEMPLATE = """
